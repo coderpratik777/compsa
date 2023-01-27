@@ -1,0 +1,122 @@
+*{
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    position: relative;
+    background: #160029;
+    width: 100vw;
+    height: 100vh;
+
+}
+.main .title
+{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 96px;
+    /* or 157% */
+    text-transform: uppercase;
+    color: #E5E1E6;
+    text-shadow: 6px 4px 4px #000000;
+}
+
+.main2
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #160029;
+}
+.blur_circle
+{
+    
+    position: absolute;
+    width: 414.98px;
+    height: 450px;
+    left: 1110px;
+    top: -32px;
+    background: rgba(233, 70, 218, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(190px);
+    border-radius: 225px;
+}
+.blur_circle2
+{
+    
+    left: 0px;
+    top:230px;
+
+}
+.hvAhGP::after{
+    animation: 1s linear 0s infinite normal none running ctfztD;
+    content: "01001111 01110000 01100101 01101110 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101110 01110011 01101111 01101100 01100101 01001111 01110000 01100101 01101110 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101110 01110011 01101111 01101100 01100101 01001111 01110000 01100101 01101110 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101110 01110011 01101111 01101100";
+    top: 0px;
+    left: 0px;
+    color: rgb(229, 225, 230);
+    font-size: 12px;
+    pointer-events: none;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    opacity: 0.3;
+    -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 5%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 95%);
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 200;
+}
+.navbar
+{
+    margin-left:26%;
+    width: 50vw;
+    border-radius: 30px;
+    background-color: #8b05ff;
+    box-shadow: 4px 4px 0 0 #fff;
+}
+.main .navbar .center
+{
+    text-align: center;
+    color: white;
+}
+.main .navbar .center ul
+{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    padding: 20px;
+   
+}
+.main .title
+{
+   
+    color:white;
+    
+}
+.main2 .container1
+{
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+.main2 .container2
+{
+    position: absolute;
+    top:10%;
+    left:22%;
+    width:60vw;
+    height: 200px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(90px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+}
